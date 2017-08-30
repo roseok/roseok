@@ -21,7 +21,6 @@ if(empty($sess_id))
     redirect(base_url());
 
 }else{
-
 ?><!DOCTYPE html>
 <html lang="en">
 <head>

@@ -43,7 +43,7 @@ $config['mailtype'] = 'text'; // or html
 $config['validation'] = FALSE;
 //$this->email->initialize($config);
 
-$config['base_url'] = 'http://localhost:85/roseok';
+$config['base_url'] = 'http://localhost:85/THIS_GITHUB_ROSE/roseok';
 
 /*
 |--------------------------------------------------------------------------
