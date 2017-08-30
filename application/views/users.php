@@ -1,3 +1,6 @@
+
+<?php include('public_header.php'); ?>
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
@@ -126,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <br>    <hr>    <br>
     </div>
-    <p class="footer">Rose stories control pannel login page</p>
+   <!--  <p class="footer">Rose stories control pannel login page</p> -->
 </div>
 </body>
 </html>
