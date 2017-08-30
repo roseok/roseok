@@ -11,6 +11,21 @@ class user_model extends CI_Model {
     }
 
 
+    public function add_event($quote)
+    {
+        $query = "INSERT INTO events (event_titel, event_discription,event_img) VALUES (?,?,?)";
+        $values = array($quote['text_event_titel'],$quote['text_Event_discription'],$quote['text_Image_name']);
+        $this->db->query($query, $values);
+        return $this->db->insert_id();
+    }
+
+    public function add_youtube($quote)
+    {
+        $query = "INSERT INTO youtube (youtube_titel, youtube_link,youtube_discription) VALUES (?,?,?)";
+        $values = array($quote['text_youtube_titel'],$quote['text_youtube'],$quote['text_youtube_discription']);
+        $this->db->query($query, $values);
+        return $this->db->insert_id();
+    }
 
 
     public function updatepws($quote)
