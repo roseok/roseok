@@ -106,6 +106,7 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('model1', 'model2');
 |
+
 */
 
 $autoload['model'] = array();
