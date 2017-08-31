@@ -114,24 +114,30 @@
             <div class="features_content text-center">
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="1s">
-                        <img src="images/rose logo.png" alt="" />
-                        <h5>WAT WE DOEN</h5>
-                        <p>Rose stories is een  plek waar verhalen uit verschillende culturen een <a href="over.html">...read more</a></p>
+
+                        <img src="images/rsz_roselogo.jpg" alt="" />
+                        <h5>WAT WE DOEN ghfghj</h5>
+                        <p>Rose stories is een  plek waar verhalen uit verschillende culturen een <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
+
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="1.5s">
-                        <img src="images/rose logo.png" alt="" />
+                        <img src="images/rsz_roselogo.jpg" alt="" />
                         <h5>WAAROM WE DAT DOEN</h5>
-                        <p>We geloven in de kracht van het verhaal, voor het teweegbrengen van positieve verandering ter bevordering van gelijkheid en diversiteit in de samenleving.<a href="over.html?#waarom">...read more</a></p>
+
+                        <p>We geloven in de kracht van het verhaal, voor het teweegbrengen van positieve verandering ter bevordering van gelijkheid en diversiteit in de samenleving.<a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
+
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="2s">
-                        <img src="images/rose logo.png" alt="" />
+                        <img src="images/rsz_roselogo.jpg" alt="" />
                         <h5>HOE WE DAT DOEN</h5>
-                        <p>Op onze eigen manier: pragmatisch, effectief en liefdevol. Maar ook met gezond verstand, hollandse nuchterheid en vereende krachten.<a href="over.html?#hoe">...read more</a></p>
+
+                        <p>Op onze eigen manier: pragmatisch, effectief en liefdevol. Maar ook met gezond verstand, hollandse nuchterheid en vereende krachten.<a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
+
                     </div>
                 </div>
             </div>
@@ -238,64 +244,7 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p5.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p4.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p3.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p2.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/s1.png" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+                
 </section>
 
 
@@ -351,6 +300,7 @@ margin: 33px; -->
                         <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" target="_blank">BOEKEN</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/theater/" target="_blank">THEATER</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/film-tv/" target="_blank">FILM & TV</a></li>
+                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">EVENTS</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">TALENT ONTWIKKELING</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" target="_blank">IN OPDRACHT</a></li>
                     </ul>
@@ -364,20 +314,21 @@ margin: 33px; -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single_menus wow slideInLeft" data-wow-duration="1.5s">
                         <ul>
-                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></div> <span></span>
+                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="profile?id=1"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
 
-                            <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></div> <span></span>
+                            <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <a href="profile?id=RAMONA"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></a></div> <span></span>
 
-                            <div class="maker1"><li> FADUA EL AKCHAOUI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/FADUA EL AKCHAOUI.jpg"></div> <span></span>
+                            <div class="maker1"><li> FADUA EL AKCHAOUI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/fadua-el-akchaoui/"> <img class="roundimage" src="images/makers/FADUA EL AKCHAOUI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> SOUMAYA AHOUAOUI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div> <span></span>
-                            <div class="maker1"><li> KYRA BOUOUARGANE   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/KYRA BOUOUARGANE.jpg"></div> <span></span>
+                            <div class="maker1"><li> SOUMAYA AHOUAOUI irene   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/soumaya-ahouaoui/"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> KHADIJA EL KHARRAZ ALAMI  </li></div><div class="maker2"> <img class="roundimage" src="images/makers/KHADIJA EL KHARRAZ ALAMI.jpg"></div> <span></span>
+                            <div class="maker1"><li> KYRA BOUOUARGANE   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/kyra-bououargane/"> <img class="roundimage" src="images/makers/KYRA BOUOUARGANE.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> DARIA BUKVIĆ  </li></div><div class="maker2"> <img class="roundimage" src="images/makers/DARIA BUKVIĆ.jpg"></div> <span></span>
+                            <div class="maker1"><li> KHADIJA EL KHARRAZ ALAMI  </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/khadija-el-kharraz-alami/"><img class="roundimage" src="images/makers/KHADIJA EL KHARRAZ ALAMI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> TOFIK DIBI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/TOFIK DIBI.jpg"></div> <span></span>
+                            <div class="maker1"><li> DARIA BUKVIĆ  </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/daria-bukvic/"> <img class="roundimage" src="images/makers/DARIA BUKVIĆ.jpg"></div> </a><span></span>
+
+                            <div class="maker1"><li> TOFIK DIBI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/tofik-dibi/"> <img class="roundimage" src="images/makers/TOFIK DIBI.jpg"></div> </a> <span></span>
 
 
                         </ul>
@@ -388,24 +339,21 @@ margin: 33px; -->
                     <div class="single_menus wow slideInRight" data-wow-duration="1.5s">
                         <ul>
 
-                            <a href="[your link here]"><img src="[your link to the image goes here]" /></a>
+                            <div class="maker1"> <li> ASTRID SY  </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/astrid-sy/"><img class="roundimage" src="images/makers/ASTRID SY.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"> <li> ASTRID SY  </li></div><div class="maker2"> <img class="roundimage" src="images/makers/ASTRID SY.jpg"></div> <span></span>
+                            <div class="maker1"><li> MARIA LAM   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/maria-lam/"> <img class="roundimage" src="images/makers/MARIA LAM.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> MARIA LAM   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/MARIA LAM.jpg"></div> <span></span>
+                            <div class="maker1"><li> JULIE NG   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/julie-ng/"> <img class="roundimage" src="images/makers/JULIE NG.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> JULIE NG   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/JULIE NG.jpg"></div> <span></span>
+                            <div class="maker1"><li> JAMILA WINWOOD   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/jamila-winwood/"> <img class="roundimage" src="images/makers/JAMILA WINWOOD.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> JAMILA WINWOOD   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/JAMILA WINWOOD.jpg"></div> <span></span>
+                            <div class="maker1"><li> HAKIMA ELOUARTI   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/hakima-elouarti/"> <img class="roundimage" src="images/makers/HAKIMA ELOUARTI.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> HAKIMA ELOUARTI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/HAKIMA ELOUARTI.jpg"></div> <span></span>
+                            <div class="maker1"><li> ROSA VITALIE   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/rosa-vitalie/"> <img class="roundimage" src="images/makers/ROSA VITALIE.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> ROSA VITALIE   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/ROSA VITALIE.jpg"></div> <span></span>
+                            <div class="maker1"><li> NADIA ZEROUALI   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/nadia-zerouali/"> <img class="roundimage" src="images/makers/NADIA ZEROUALI.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> NADIA ZEROUALI   </li></div><div class="maker2"> <img class="roundimage" src="images/makers/NADIA ZEROUALI.jpg"></div> <span></span>
-
-                            <div class="maker1" ><li> MARK JANSSEN, MYLO FREEMAN<br> & MILJA PRAAGMAN    </li></div><div class="maker2"> <img class="roundimage" src="images/makers/kinderverhalen traject.jpg"></div> <span></span>
-
+                            <div class="maker1" ><li> MARK JANSSEN, MYLO FREEMAN<br> & MILJA PRAAGMAN    </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/begeleiders-illustratoren/"> <img class="roundimage" src="images/makers/kinderverhalen traject.jpg"></div> </a> <span></span>
                         </ul>
                     </div>
                 </div>
