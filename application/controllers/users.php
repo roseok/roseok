@@ -398,15 +398,25 @@ if ( $this->input->post('register',true) )
     // ************************************* getyoutube *********************************************
     public function getyoutube()
     {
-
-
             $this->load->model('user_model');
             $arrx['res'] = $this->user_model->get_all_youtube();
-            $this->load->view('showfilms', $arrx);
+             $this->load->view('navbar');
+            $this->load->view('showfilm', $arrx);
 
     }
     // ************************************* getyoutube *********************************************
 
+
+    // ************************************* getyoutube *********************************************
+    public function getevents()
+    {
+        $this->load->model('user_model');
+        $arrx['res'] = $this->user_model->get_all_events();
+        $this->load->view('navbar');
+        $this->load->view('showevents', $arrx);
+
+    }
+    // ************************************* getyoutube *********************************************
 
 
 

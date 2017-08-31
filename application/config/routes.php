@@ -48,6 +48,10 @@ $route['changepassword'] = 'users/changepassword';
 $route['uploadfile'] = 'users/uploadfile';
 $route['event'] = 'users/addevent';
 $route['youtube'] = 'users/addyoutube';
+$route['showfilms'] = 'users/getyoutube';
+$route['showevents'] = 'users/getevents';
+
+
 
 
 
