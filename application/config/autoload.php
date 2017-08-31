@@ -4,8 +4,8 @@
 | AUTO-LOADER
 | -------------------------------------------------------------------
 | This file specifies which systems should be loaded by default.
-| This is my changes Mishel
 | In order to keep the framework as light-weight as possible only the
+
 | absolute minimal resources are loaded by default. For example,
 | the database is not connected to automatically since no assumption
 | is made regarding whether you intend to use it.  This file lets
@@ -107,6 +107,7 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('model1', 'model2');
 |
+
 */
 
 $autoload['model'] = array();
