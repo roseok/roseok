@@ -316,21 +316,21 @@ margin: 33px; -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single_menus wow slideInLeft" data-wow-duration="1.5s">
                         <ul>
-                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="profile?id=1"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
+                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="profile?id=maryam"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
 
                             <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <a href="profile?id=RAMONA"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></a></div> <span></span>
 
-                            <div class="maker1"><li> FADUA EL AKCHAOUI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/fadua-el-akchaoui/"> <img class="roundimage" src="images/makers/FADUA EL AKCHAOUI.jpg"></div></a> <span></span>
+                            <div class="maker1"><li> FADUA EL AKCHAOUI   </li></div><div class="maker2"><a href="profile?id=fadua"> <img class="roundimage" src="images/makers/FADUA EL AKCHAOUI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> SOUMAYA AHOUAOUI irene   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/soumaya-ahouaoui/"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div></a> <span></span>
+                            <div class="maker1"><li> SOUMAYA AHOUAOUI irene   </li></div><div class="maker2"><a href="profile?id=SOUMAYA"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> KYRA BOUOUARGANE   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/kyra-bououargane/"> <img class="roundimage" src="images/makers/KYRA BOUOUARGANE.jpg"></div></a> <span></span>
+                            <div class="maker1"><li> KYRA BOUOUARGANE   </li></div><div class="maker2"><a href="profile?id=kyra"> <img class="roundimage" src="images/makers/KYRA BOUOUARGANE.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> KHADIJA EL KHARRAZ ALAMI  </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/khadija-el-kharraz-alami/"><img class="roundimage" src="images/makers/KHADIJA EL KHARRAZ ALAMI.jpg"></div></a> <span></span>
+                            <div class="maker1"><li> KHADIJA EL KHARRAZ ALAMI  </li></div><div class="maker2"> <a href="profile?id=khadija"><img class="roundimage" src="images/makers/KHADIJA EL KHARRAZ ALAMI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> DARIA BUKVIĆ  </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/daria-bukvic/"> <img class="roundimage" src="images/makers/DARIA BUKVIĆ.jpg"></div> </a><span></span>
+                            <div class="maker1"><li> DARIA BUKVIĆ  </li></div><div class="maker2"><a href="profile?id=kyra"> <img class="roundimage" src="images/makers/DARIA BUKVIĆ.jpg"></div> </a><span></span>
 
-                            <div class="maker1"><li> TOFIK DIBI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/tofik-dibi/"> <img class="roundimage" src="images/makers/TOFIK DIBI.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> TOFIK DIBI   </li></div><div class="maker2"><a href="profile?id=tofik"> <img class="roundimage" src="images/makers/TOFIK DIBI.jpg"></div> </a> <span></span>
 
 
                         </ul>
@@ -341,21 +341,21 @@ margin: 33px; -->
                     <div class="single_menus wow slideInRight" data-wow-duration="1.5s">
                         <ul>
 
-                            <div class="maker1"> <li> ASTRID SY  </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/astrid-sy/"><img class="roundimage" src="images/makers/ASTRID SY.jpg"></div> </a> <span></span>
+                            <div class="maker1"> <li> ASTRID SY  </li></div><div class="maker2"> <a href="profile?id=astrid"><img class="roundimage" src="images/makers/ASTRID SY.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> MARIA LAM   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/maria-lam/"> <img class="roundimage" src="images/makers/MARIA LAM.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> MARIA LAM   </li></div><div class="maker2"> <a href="profile?id=lam"> <img class="roundimage" src="images/makers/MARIA LAM.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> JULIE NG   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/julie-ng/"> <img class="roundimage" src="images/makers/JULIE NG.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> JULIE NG   </li></div><div class="maker2"> <a href="profile?id=julie"> <img class="roundimage" src="images/makers/JULIE NG.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> JAMILA WINWOOD   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/jamila-winwood/"> <img class="roundimage" src="images/makers/JAMILA WINWOOD.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> JAMILA WINWOOD   </li></div><div class="maker2"> <a href="profile?id=jamila"> <img class="roundimage" src="images/makers/JAMILA WINWOOD.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> HAKIMA ELOUARTI   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/hakima-elouarti/"> <img class="roundimage" src="images/makers/HAKIMA ELOUARTI.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> HAKIMA ELOUARTI   </li></div><div class="maker2"> <a href="profile?id=hakima"> <img class="roundimage" src="images/makers/HAKIMA ELOUARTI.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> ROSA VITALIE   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/rosa-vitalie/"> <img class="roundimage" src="images/makers/ROSA VITALIE.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> ROSA VITALIE   </li></div><div class="maker2"> <a href="profile?id=vitalie"> <img class="roundimage" src="images/makers/ROSA VITALIE.jpg"></div> </a> <span></span>
 
-                            <div class="maker1"><li> NADIA ZEROUALI   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/nadia-zerouali/"> <img class="roundimage" src="images/makers/NADIA ZEROUALI.jpg"></div> </a> <span></span>
+                            <div class="maker1"><li> NADIA ZEROUALI   </li></div><div class="maker2"> <a href="profile?id=nadia"> <img class="roundimage" src="images/makers/NADIA ZEROUALI.jpg"></div> </a> <span></span>
 
-                            <div class="maker1" ><li> MARK JANSSEN, MYLO FREEMAN<br> & MILJA PRAAGMAN    </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/begeleiders-illustratoren/"> <img class="roundimage" src="images/makers/kinderverhalen traject.jpg"></div> </a> <span></span>
+                            <div class="maker1" ><li> MARK JANSSEN, MYLO FREEMAN<br> & MILJA PRAAGMAN    </li></div><div class="maker2"> <a href="profile?id=kinder"> <img class="roundimage" src="images/makers/kinderverhalen traject.jpg"></div> </a> <span></span>
                         </ul>
                     </div>
                 </div>

@@ -25,53 +25,34 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose Stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+               JAMILA WINWOOD</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/bannerbg_TEMP.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                Lange tijd was Jamila Winwood (1981) op zoek naar de gezonde levensstijl die het beste bij haar past. Ze wilde kunnen genieten van al het lekkers dat de Marokkaanse keuken te bieden heeft, en daar de beste elementen van gebruiken voor een levensstijl waarbij gezond eten en genieten hand in hand gaan. Samen met ROSE stories maakte ze het kookboek Van Tajine tot Havermout, een prachtige verzameling gezonde recepten met een Marokkaans tintje. 
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+                Jamila Winwood is een succesvolle health coach & lifestyle blogger. Op haar blog inspireert ze haar volgers om gezond te eten. Ze laat zien hoe je met heel veel plezier en liefde onbewerkte ingrediënten omtovert tot de lekkerste gerechten voor de mensen om je heen. Het liefst reist Jamila de hele wereld af om zich te laten inspireren door verschillende culturen en elementen daarvan te gebruiken voor het creëren van nieuwe gerechten.
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+               Hoekjes van geluk is haar debuut als auteur, maar het schrijven zit Maryam al langer in het bloed. Een jaar voordat ze met het kinderboek begon, schreef ze haar eigen monoloog, Een Teruggedachte. Toch is het schrijven van Hoekjes van Geluk een van de meest bijzondere dingen die Maryam ooit heeft gedaan. Ze vindt het zoveel spannender dan op een set staan en acteren, omdat het zo persoonlijk is.
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+                Het allerliefst deelt ze dat met anderen: “Mijn doel is om vrouwen te inspireren en te motiveren om een gezonde levensstijl na te streven en te genieten van het leven. Ik wil niet alleen Marokkaans-Arabische en andere etnische vrouwen een gezonde variatie van de Marokkaanse keuken laten zien, ook wil ik de Nederlandse vrouwen inspireren om te genieten van culinaire Marokkaanse aspecten. Ik geloof in goed, puur, gezond en lekker!”
+
+ 
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +155,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s

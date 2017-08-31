@@ -25,53 +25,36 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+               NADIA ZEROUALI</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/NADIA ZEROUALI.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                Het leven van Nadia (1975) draait om eten en drinken: thuis met familie en vrienden, op haar werk als culinair professional en tijdens haar reizen, waar ze inspiratie opdoet en heerlijke ingrediënten en gerechten ontdekt. ROSE stories wilde dan ook dolgraag met Nadia samenwerken voor het kookboek Melk & Dadels – 100 geheime recepten van Marokkaanse moeders.
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+                Opgegroeid in een groot Marokkaans gezin in het oosten van het land stond Nadia als kind al veel in de keuken. Na studies aan de Hotelschool en in de marketing en communicatie, heeft zij zich in de loop der jaren ontwikkeld tot een veelgevraagd expert in de Mediterrane en Arabische keuken. Uit passie voor de Arabische keuken zijn er in de loop der jaren vijf Arabia-kookboeken geboren, die Nadia samen met hartsvriendin Merijn Tol samenstelde. Wellicht ken je haar ook uit bladen als de VIVA en delicious. Bovendien is ze geregeld te zien op televisie, onder andere bij 24Kitchen. 
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+              “Melk & Dadels is een project dat heel dicht bij mij staat. Omdat ik zelf Marokkaanse ben, ken ik de meeste tradities en gebruiken (en niet te vergeten: de taal!), waardoor ik heel ontspannen met de twintig trotse Melk & Dadels-moeders kon meekoken.
+
+Ik heb veel respect voor deze vrouwen: ze hebben moeder- en vaderland achter zich gelaten op zoek naar een betere toekomst voor hun kinderen. Ze zijn altijd positief gebleven en elke dag heerlijk blijven koken! Koken voor je kinderen is in hun ogen geen verwennerij maar een vanzelfsprekendheid, een daad van liefde.
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+                Daarnaast zijn de moeders erg creatief in de keuken: ze roeien met de riemen die ze hebben. Ook als ze niet alle juiste ingrediënten voorhanden hebben, weten ze er altijd iets bijzonders met een Marokkaans tintje van te maken.
+
+Aan Melk & Dadels werken was voor mij één groot feest en bovendien heel erg leerzaam. Ik hoop dat onze lezers even enthousiast zijn: deze verhalen zijn te speciaal en dit culinaire erfgoed is te mooi om verloren te laten gaan.”
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +157,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s

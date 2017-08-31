@@ -25,53 +25,32 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose Stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+                RAMONA TREFFERS</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
+                <img src="images/RAMONA TREFFERS.jpg">
                 <div align="left">Foto: Amena Khan</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                Illustrator Ramona Treffers is voor ROSE stories aan de slag gegaan om Hoekjes van geluk tot leven te brengen. Haar werk zit vol dromerige en magische illustraties, waarin kleur en licht vaak een belangrijke rol spelen. Normaal werkt Ramona vooral aan illustraties voor animatiefilms en games. Het maken van een boek is echt weer iets anders, vindt ze. “Je moet niet alleen rekening houden met het verhaal an sich, maar ook met het feit dat er tekst in jouw illustraties worden geplaatst.”
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+                Treffers herkent zich enorm in het verhaal van Sam in Hoekjes van geluk. Het gevoel van een beetje ‘bleh’ thuiskomen, om vervolgens op zoek te gaan naar fijne plekjes en je fantasie er helemaal op loslaten. Ze vond het als kind ook leuk om fantasiewerelden te creëren. In feite doet Ramona dat nog steeds met het illustreren. Dat vindt ze ook het leuke eraan: alles kan.
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+                Ramona’s creatieve proces begint meestal met het maken van enkele schetsen in haar schetsboek. “Gewoon wat ideeën uitwerken, vooral wat betreft de karakters. Zo ben ik voor Hoekjes van Geluk eerst begonnen met een schets van Sam. Ik had wel een beetje een idee hoe hij eruit moest komen te zien –  een stoer jongetje en een echte onderzoeker die graag op expeditie gaat – maar in de praktijk is het vaak 300 keer tekenen, uitgummen en nog een keer tekenen.”
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+                Naast Hoekjes van Geluk werkt(e) Ramona aan diverse animatiefilms zoals Vrije Vogel (2016) en Camouflage (2019). Ze studeerde in 2012 als illustrator af aan de AKV St. Joost in Breda, waar zij een nominatie voor de Sint Joostpenning ontving voor haar afstudeerproject De Weg Terug. In de toekomst hoopt Ramona verder te kunnen met zowel het illustreren voor animatiefilms en games als voor kinderboeken.
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 

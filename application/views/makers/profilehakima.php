@@ -25,53 +25,32 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose Stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+               HAKIMA ELOUARTI</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/HAKIMA ELOUARTI.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                De veelzijdige Hakima Elouarti (1977) vertelt verhalen voor tv, theater en film. Voor ROSE stories vertelt ze het verhaal van de avontuurlijke Mootje. Ze is geboren en getogen in de Amsterdamse Kolenkit-buurt en studeerde Film- en Televisiewetenschappen aan de Universiteit van Amsterdam. De filosofische kant van de studie sprak haar het meest aan: “Film leert je heel veel over het leven.”
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+               Na haar studie gaat Hakima aan de slag als regieassistent en verzorgt ze scriptcontinuïteit voor producties als Waar is het paard van Sinterklaas? en de tv-serie Shouf Shouf. Ze komt terecht in Kind en Kleur, het scenariocoachingstraject van het Mediafonds, waar de focus ligt op de ontwikkeling van kindertelevisie. Hieruit komt haar korte kinderfilm Mina Moes voort, die zowel op het Cinekid kindermediafestival als bij de NPO op televisie wordt vertoond. Hakima stroomt door naar een coachingstraject voor toneelschrijven aan het MC Theater. Haar stuk De wereld van karton wordt geselecteerd voor het Hollandse Nieuwe Festival. 
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+               In Hakima’s werk staat het verhaal altijd voorop: ze weet haar publiek te boeien met stukken waarin jonge personages met een niet-westerse achtergrond de hoofdrol spelen, zonder dat die achtergrond het daadwerkelijke verhaal van de personages overstemt. Mede door Hakima’s eigen achtergrond zijn verschillende culturen in haar verhalen een vanzelfsprekendheid: het is een natuurlijke en authentieke manier van storytelling, die zij als geen ander beheerst.
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+               “Mootje is het eerste prentenboek dat ik schrijf. Spannend, het is voor mij een nieuwe manier van verhalen vertellen en meteen een vrij persoonlijk project: ik put veel uit mijn eigen jeugdervaringen. Ik ben opgegroeid in een gezin met negen kinderen, dus het was bij ons thuis altijd lekker druk. Heel gezellig, maar je bent geen moment alleen. Even op mezelf zijn was er eigenlijk nooit bij. En dat is zo belangrijk: tijd om na te denken, om te reflecteren, om even weg te dromen! Onze heldin Mootje, een soort Oosterse Pippi Langkous, wil dat graag en ik denk dat dit een behoefte is die heel universeel en herkenbaar is, uit welke leeftijdscategorie en cultuur je ook komt. Eigenlijk schuilt er een Mootje in ons allemaal.”
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +153,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s

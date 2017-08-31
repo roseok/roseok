@@ -25,53 +25,34 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose Stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+               JULIE NG</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/JULIE NG.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+               Van kleins af aan is Julie Ng (1979) al omringd door eten. Als dochter van een Chinees-Indisch restauranthouder zag ze dagelijks de borden met babi pangang en foe yong hai voorbijkomen. Als tiener was ze vaak in de keuken te vinden en stond ze haar moeder bij tijdens het koken, waardoor haar moeders specialiteiten in haar geheugen staan gegrift. Nu tekent Julie die bijzondere gerechten op, net als die van 19 andere Chinese moeders.
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+                Op professioneel vlak beweegt Julie zich voornamelijk binnen de filmwereld, waar ze zich bezighoudt met filmdistributie en –productie. Zo werkte ze onder andere bij filmdistributeur Warner Bros, Pictures International Holland en filmproductiemaatschappijen als Fu Works en CTM Pictures. Ze droeg bij aan producties als Oorlogswinter en Strike a Pose. Sinds twee jaar produceert Julie onder eigen vlag films en documentaires met haar Very Chewy Productions.
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+               Voor de ontwikkeling van haar documentaire Wij zijn meer dan babi pangang is Julie zich steeds meer gaan verdiepen in de Chinese cultuur en dan met name in de Chinese keuken. Deze opgedane kennis zet zij, naast haar Aziatische roots en haar voorliefde voor het vertellen van verhalen, nu in bij het maken van het kook- en verhalenboek Maancake & Jasmijn – 100 geheime recepten van Chinese moeders. “Het bijzondere van dit project is dat ieder gerecht een eigen verhaal heeft. Dit maakt het gerecht nog authentieker dan het al is. Bepaalde gerechten ken ik ook van mijn moeder, maar deze dames hebben er vanuit hun familie-achtergrond een eigen draai aan gegeven.”
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+               Velen denken dat de wel bekende babi pangang of foe yong hai Chinese gerechten zijn, maar met dit kook- en verhalenboek wil Julie laten zien dat de Chinese keuken zoveel meer is dan dat. “Ik wil mensen een kijkje geven in de echte traditionele Chinese keuken. Bovendien vind ik het mooi om te zien hoe verweven eten is met de Chinese cultuur; de sociale functie die het heeft. Het feit dat Chinese mensen elkaar groeten met de vraag: ‘Heb je al gegeten?’ in plaats van ‘Hoe gaat het met je?’ is daarin veelbetekenend.”
+
+“Eten brengt mensen ook bij elkaar. Een voorbeeld is het Chung Yeung Festival wat ik zo nu en dan bezoek met mijn vader. De gehele dag draait om eten. Of het nu gaat om het eren van je voorouders met een vers geroosterd speenvarken dat ver van te voren is besteld bij de beste roosteraar in de stad, of het big bowl feast dat ’s avonds uitgebreid wordt gevierd, met de beste ingrediënten. Het staat gelijk aan respect tonen aan je voorouders, saamhorigheid, gelijkheid en het voortzetten van de familiestamboom. Kortom, de Chinese keuken is zoveel rijker en diepgaander dan mensen denken.”
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +155,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s

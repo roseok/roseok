@@ -25,53 +25,36 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose Stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+              MARK JANSSEN, MYLO FREEMAN & MILJA PRAAGMAN</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/kinder1.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                Mark Janssen – Janssen studeerde in 1997 af aan de Academie Beeldende Kunsten in Maastricht. Sinds zijn eerste kinderboek Mijn vriend de sjeik (Ulf Stark, 1997) bij Lemniscaat, werkte Janssen mee aan meer dan 450 kinder- en prentenboeken in Nederland en België. Janssen combineert digitaal met analoog, wat resulteert in bijzondere composities, die krachtig en kleurrijk zijn. Wat Janssen graag alvast wil meegeven: ‘Illustratiestijlen en -smaken verschillen en dat is maar goed ook! Hoe bijzonder andere talenten en gevestigde illustratoren ook zijn; ze kunnen één ding helemaal niet en dat is jouw werk maken. Dat is alvast jouw kracht bij aanvang van het ROSE kinderverhalentraject. Eén ding is zeker; het gaat een heel interessant traject worden, dat hoe dan ook iets in gang gaat zetten voor de deelnemers. De reis lijkt me even waardevol als de bestemming: dat eigen kinderboek.”
+
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+
+Mylo Freeman (Foto: Inta Nahapetjan) – Sinds haar afstuderen in illustratie aan de Gerrit Rietveld Academie, schrijft en illustreert Mylo Freeman prentenboeken voor leeftijden variërend van 0 tot 6 jaar. Haar werk kenmerkt zich door kleurrijkheid. Dit geldt niet alleen letterlijk voor haar kleurgebruik, maar ook voor haar personages: Freemans prentenboeken onderscheiden zich vanwege het feit dat zij altijd kiest voor cultureel diverse hoofdkarakters. Haar bekendste en succesvolste boeken gaan over Prinses Arabella. Deze serie heeft inmiddels tevens geleid tot een pop, een app en een muzikaal theaterstuk. Freemans tip voor het kinderverhalentraject is een quote van Pablo Picasso: ‘Learn the rules like a pro so you can break them like an artist!’
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+</b><br><br>
+                <img src="images/kinder.jpg">
+                </b><br><br>
+               Milja Praagman – Praagman studeerde grafisch ontwerpen aan de Academie voor de Beeldende Kunsten Sint-Joost in Breda. Ze illustreert en schrijft diverse kinderboeken voor verschillende leeftijden. Sinds haar eerste, goed ontvangen prentenboek Meneer Po schreef Milja onder meer Omdat ik je zo graag zie, de serie Ik ben geen boek, Nog 100 nachtjes slapen (Prentenboek van het Jaar 2013) en Ontbillenbijt. In Praagmans boeken gaan kleine mensen en dieren hun eigen gang. Stoer en met een subtiel gevoel voor humor. Praagman: “Ik hoop dat ik de gekozen talenten kan inspireren om een verhaal te gaan illustreren waarmee hun eigenheid behouden blijft en dat ik ze hierin houvast kan geven. Om ze te mogen begeleiden vind ik een hele eer, en kijk ik erg naar uit!”
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
-            </p>
+                            </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +157,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s

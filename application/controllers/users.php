@@ -60,7 +60,7 @@ class Users extends CI_Controller {
     public function profile()
     {
        
-        
+         $this->load->view('navbar');
         $this->load->view('/makers/profile'.$_GET["id"]);
     }
 

@@ -25,53 +25,32 @@ vertical-align: top;
     <div class="container">
         <div class="row">
             <div class="head_title text-center wow slideInLeft" data-wow-duration="1.5s">
-<<<<<<< HEAD
-                <h2>FILM & TV & Youtube</h2>
-=======
-                <h2>FILM, TV & Youtube</h2>
->>>>>>> irene
+                <h2>Makers of Rose stories</h2>
                 <div class="separetor"></div>
             </div>
 
 
             <div class="hed_in1xx">
 <font color="red" size="5"><div align="left">
-                MY HIJAB, MY BUSINESS</div></font>
+               ROSA VITALIE</div></font>
                 <br>
-                <img src="images/AmenaRoomPic-1100x733.jpg">
-                <div align="left">Foto: Amena Khan</div>
+                <img src="images/ROSA VITALIE.jpg">
+                <div align="left">Foto: Marc Haers</div>
                 <br><br>
             <p align="justify">
 <b>
-                ROSE stories heeft in samenwerking met de NTR en Moslim Omroep een documentaire geproduceerd over de ultieme storytellers van deze tijd: vloggers. Populairder dan popsterren, geraffineerder dan topmodellen en invloedrijker dan glossy’s: vloggers zijn de supersterren van de nieuwe generatie. YouTube en Instagram zijn hun domein en creativiteit hun kapitaal.
+                Rosa Vitalie (1980) is een geboren en getogen Amsterdamse, waar ze in een bont gezelschap opgroeide en een liefde ontwikkelde voor andere culturen. Haar passie en talent voor creatie, illustratie en mooi beeld kwamen tot wasdom tijdens haar opleiding Grafisch & Typografisch Ontwerp aan de Koninklijke Academie van Beeldende Kunsten in Den Haag. Sinds haar afstuderen in 2004 heeft Rosa voor veel verschillende klanten gewerkt in de commerciële en non-profit sector. Voor ROSE stories is ze zowel verantwoordelijk voor de illustraties van Mootje, als voor de vormgeving van het voorleesboek Hoekjes van geluk en de kookboeken Melk & Dadels en Maancake & Jasmijn.
 </b><br><br>
-                My Hijab, My Business focust zich op het persoonlijke en professionele leven van een drietal populaire mode- en beauty-vloggers: Amena Khan, Nura Afia en Ikram Aqantos.  Ze zijn jonge, hijab-dragende vrouwen die allen geld verdienen met hun eigen video’s. Hun YouTube-kanalen lijken simpele hobby’s van jonge modepopjes, maar in werkelijkheid schuilt er een grote commerciële organisatie achter, die van vlogging een miljoenen-business maakt.
+                Over de jaren heen heeft Rosa een voorkeur ontwikkeld voor opdrachten waarmee ze het bewustzijn voor de schoonheid van dieren, planten en culturen kan versterken. De laatste jaren illustreert Rosa regelmatig voor het NRC Handelsblad. Ze verzorgde de illustraties voor het boek En de mens speelt met de tijd van Allerd Stikkers over het ontstaan van het heelal, het leven en het bewustzijn. Bij ROSE stories heeft Rosa de vormgeving van Melk & Dadels – 100 geheime recepten van Marokkaanse moeders op zich genomen, alsmede van het Chinese vervolg erop. Daarnaast heeft ze de tekst van Maryam Hassouni en de illustraties van Ramona Treffers samengebracht in de vormgeving van het voorleesboek Hoekjes van geluk. Naast deze prettige samenwerking is Rosa één van de vrouwen achter Mootje.
                 <br><br>
-                Deze unieke documentaire, gemaakt door een all women crew, vertelt specifiek het verhaal van vrouwelijke vloggers die een hijab dragen. Hoe beïnvloedt de hijab hun online business en hoe plaatsen zij zich met dit kenmerk in de (online) wereld van mode en beauty?
+              Rosa over Mootje: “Ik heb een relatie met een man uit Zuid-Duitsland. Dat klinkt heel dichtbij, maar de cultuurverschillen kunnen soms enorm zijn. We wonen samen met ons kindje in Amsterdam en ik zie de blijdschap die hij voelt als hij zijn eigen cultuur herkent in de winkel, in boeken, in het dagelijks leven. Hij deelt dat dan ook maar al te graag met ons! De behoefte om je kinderen een stukje van jezelf mee te geven heeft ieder mens, je kunt dat eigenlijk niet ontkennen. Daarom vind ik Mootje zo’n belangrijk project: je achtergrond en roots zijn prachtig, ik hoop dat zoveel mogelijk kinderen dat meekrijgen.”
                 <br><br>
-                De drie vloggers ontvouwen zich als onafhankelijke, echte ondernemers, invloedrijke trendsetters met miljoenen volgers, soms ondersteund door de grootste sponsors uit de wereld van fashion en beauty. Hoe is het hen gelukt om een online imperium op te bouwen? Hoe ziet hun dagelijks leven eruit? Hoe verdienen ze hun geld? Wat zijn hun idealen? Waarom kiezen ze voor een leven in de schijnwerpers? En hoe denkt hun omgeving hierover?
+                
             </p>
             </div>
             <br><br>
 
-                <?php   foreach($res as $row):?>
-                    <div class="hed_in1xx">
-
-                <?=$row->youtube_titel?>
-                <br><br>
-                <iframe width="400" height="300" src=<?=$row->youtube_link?> frameborder="0" allowfullscreen></iframe>
-
-                <br><br>
-<<<<<<< HEAD
-                <?=$row->youtube_discription?>
-=======
-                <?=$row->youtube_description?>
->>>>>>> irene
-                <br>
-            </div>
-                    <hr width="100%" align="center">
-
-                <?php        endforeach;?>
+                
 
 
 
@@ -174,4 +153,4 @@ vertical-align: top;
 <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
-</html>
+</html>s
