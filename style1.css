@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+}
+img{
+		width: 300px;
+		height: 300px;
+		margin: 20px
+	}
+	#foto1{
+		display: inline-flex;
+		width: 100%;
+    	margin-left: 156px;
+	}
+	.s1{
+		float: right;
+	}
+	.s1 img{
+		    position: relative;
+    left: 94px;
+	}
+	.Rachida{
+		text-align: left;
+		width: 55%;
+	}
+	#foto2{
+		display: inline-flex;
+		width: 100%;
+    	margin-left: 176px;
+	}
+	.p6{
+		float: right;
+	}
+	.p6 img{
+		    position: relative;
+    left: 76px;
+	}
+	.JAMILA{
+		text-align: left;
+		width: 55%;
+	}
+	#foto3{
+		display: inline-flex;
+		width: 100%;
+    	margin-left: 176px;
+	}
+	.p3{
+		float: right;
+	}
+	.NASIM{
+		text-align: left;
+		width: 55%;
+	}
+	.p3 img{
+		position: relative;
+    	left: 79px;
+	}
+#foto4{
+		display: inline-flex;
+		width: 100%;
+    	margin-left: 176px;
+	}
+	.p2{
+		float: right;
+	}
+	.ANNE{
+		text-align: left;
+		width: 55%;
+	}
+	.p2 img{
+		position: relative;
+   		left: 76px;
+	}
+#foto5{
+		display: inline-flex;
+		width: 100%;
+    	margin-left: 176px;
+	}
+	.p5{
+		float: right;
+	}
+	.TESS{
+		text-align: left;
+		width: 55%;
+	}
+	.p5 img{
+		position: relative;
+   		left: 75px;
+	}
+#fotos{
+	    margin-top: 117px;
+}
+.Rachida  p{
+	margin-top: 70px;
+}
+.JAMILA p{
+	margin-top: 70px;
+}
+.NASIM p{
+	margin-top: 70px;
+}
+.ANNE p{
+	margin-top: 70px;
+}
+.TESS p{
+	margin-top: 70px;
+}
+
