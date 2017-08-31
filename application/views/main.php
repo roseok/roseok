@@ -297,21 +297,14 @@ margin: 33px; -->
 
                 <div class="menus_top_menu text-center wow slideInDown" data-wow-duration="1.5s">
                     <ul>
-<<<<<<< HEAD
+
                         <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" >BOEKEN</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/theater/" >THEATER</a></li>
                         <li><a href="showfilms" >FILM & TV & Youtube</a></li>
                         <li><a href="showevents" >Events</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/trajecten/" >TALENT ONTWIKKELING</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" >IN OPDRACHT</a></li>
-=======
-                        <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" target="_blank">BOEKEN</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/theater/" target="_blank">THEATER</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/film-tv/" target="_blank">FILM & TV</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">EVENTS</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">TALENT ONTWIKKELING</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" target="_blank">IN OPDRACHT</a></li>
->>>>>>> 726071a4da5f4ea9a4eea75089e76a2f1b58a5a0
+
                     </ul>
                 </div>
 
