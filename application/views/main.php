@@ -110,14 +110,14 @@
             <div class="features_content text-center">
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="1s">
-                        <img src="images/rose logo.png" alt="" />
+                        <img src="images/rsz_roselogo.jpg" alt="" />
                         <h5>WAT WE DOEN ghfghj</h5>
                         <p>Rose stories is een  plek waar verhalen uit verschillende culturen een <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="1.5s">
-                        <img src="images/rose logo.png" alt="" />
+                        <img src="images/rsz_roselogo.jpg" alt="" />
                         <h5>WAAROM WE DAT DOEN</h5>
                         <p>We geloven in de kracht van het verhaal, voor het teweegbrengen van positieve verandering ter bevordering van gelijkheid en diversiteit in de samenleving.<a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
 
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="sinle_features wow slideInUp" data-wow-duration="2s">
-                        <img src="images/rose logo.png" alt="" />
+                        <img src="images/rsz_roselogo.jpg" alt="" />
                         <h5>HOE WE DAT DOEN</h5>
                         <p>Op onze eigen manier: pragmatisch, effectief en liefdevol. Maar ook met gezond verstand, hollandse nuchterheid en vereende krachten.<a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="_blank">...read more</a></p>
                     </div>
@@ -234,64 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p5.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p4.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p3.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/p2.jpg" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-6 single_special">
-                    <div class="single_special_img">
-                        <img src="images/s1.png" alt="" />
-                        <div class="single_special_overlay text-center">
-                            <h3>Greens fava</h3>
-                            <div class="overlay_separetor"></div>
-                            <p>Lorem ipsum dolor sit Pellentesque vel enim a</p>
-                            <p>17$</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+                
 </section>
 
 
@@ -347,6 +290,7 @@ margin: 33px; -->
                         <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" target="_blank">BOEKEN</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/theater/" target="_blank">THEATER</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/film-tv/" target="_blank">FILM & TV</a></li>
+                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">EVENTS</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">TALENT ONTWIKKELING</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" target="_blank">IN OPDRACHT</a></li>
                     </ul>
