@@ -44,7 +44,6 @@ $route['sendmail'] = "sendmail/sendme";
 $route['members'] = 'users/members';
 $route['logout'] = 'users/logout';
 $route['password'] = 'users/password';
-$route['changepassword'] = 'users/changepassword';
 $route['uploadfile'] = 'users/uploadfile';
 $route['event'] = 'users/addevent';
 $route['youtube'] = 'users/addyoutube';
@@ -53,7 +52,10 @@ $route['showevents'] = 'users/getevents';
 
 
 
+$route['over'] = 'users/over';
+$route['changepassword'] = 'users/changepassword';
 
+$route['profile'] = 'users/profile';
 
 
 /* End of file routes.php */
