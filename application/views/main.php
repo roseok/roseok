@@ -306,11 +306,11 @@ margin: 33px; -->
                         <ul>
                             <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="profile?id=1"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
 
-                            <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/ramona-treffers/"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></a></div> <span></span>
+                            <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <a href="profile?id=RAMONA"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></a></div> <span></span>
 
                             <div class="maker1"><li> FADUA EL AKCHAOUI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/fadua-el-akchaoui/"> <img class="roundimage" src="images/makers/FADUA EL AKCHAOUI.jpg"></div></a> <span></span>
 
-                            <div class="maker1"><li> SOUMAYA AHOUAOUI   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/soumaya-ahouaoui/"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div></a> <span></span>
+                            <div class="maker1"><li> SOUMAYA AHOUAOUI irene   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/soumaya-ahouaoui/"> <img class="roundimage" src="images/makers/SOUMAYA AHOUAOUI.jpg"></div></a> <span></span>
 
                             <div class="maker1"><li> KYRA BOUOUARGANE   </li></div><div class="maker2"><a href="http://www.rosestories.nl/makers/kyra-bououargane/"> <img class="roundimage" src="images/makers/KYRA BOUOUARGANE.jpg"></div></a> <span></span>
 
