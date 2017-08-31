@@ -57,6 +57,7 @@ $route['inmain'] = 'welcome';
 $route['over'] = 'users/over';
 $route['changepassword'] = 'users/changepassword';
 $route['profile'] = 'users/profile';
+$route['memprofile'] = 'users/memprofile';
 
 
 /* End of file routes.php */

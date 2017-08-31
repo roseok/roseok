@@ -4,22 +4,22 @@
 
     <meta charset="UTF-8">
     <title>Rose Stories</title>
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/animat/animate.min.css" />
-    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
-    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css" />
-    <link rel="stylesheet" href="css/themes/default/default.css" />
-    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+    <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/animat/animate.min.css" />
+    <link rel="stylesheet" href="../../css/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="../../css/nivo-lightbox/nivo-lightbox.css" />
+    <link rel="stylesheet" href="../../css/themes/default/default.css" />
+    <link rel="stylesheet" href="../../css/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../../css/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="../../css/owl-carousel/owl.transitions.css">
     <!-- add a linke for scroll up -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/responsive.css" />
 	<title>test 2</title>
-	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style1.css">
 </head>
 <body>
 <div class='preloader'><div class='loaded'>&nbsp;</div></div>
@@ -128,22 +128,22 @@
 		</div>	
 	</div>
     </div>
-	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="../../js/jquery/jquery.js"></script>
     
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../../js/script.js"></script>
     
-    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap/bootstrap.min.js"></script>
     
-    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="../../js/fancybox/jquery.fancybox.pack.js"></script>
     
-    <script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="../../js/nivo-lightbox/nivo-lightbox.min.js"></script>
     
-    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../../js/owl-carousel/owl.carousel.min.js"></script>
     
     
     
-    <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/wow/wow.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery-easing/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/wow/wow.min.js"></script>
 
 </body>
 </html>

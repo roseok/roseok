@@ -158,7 +158,7 @@
                         <img src="images/p6.jpg" alt="" />
                         <div class="single_special_overlay text-center">
                             <h3>CHAFINA BENDAHMAN</h3>
-                            <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=CHAFINA" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Research & Development</p>
                             </a>
@@ -171,7 +171,7 @@
                         <img src="images/s1.png" alt="" class="s1" />
                         <div class="single_special_overlay text-center">
                             <h3>RACHIDA EL MOUSSAOUI</h3>
-                            <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=RACHIDA" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Co-founder ROSE stories</p></a>
                             <!-- <p>17$</p> -->
@@ -183,7 +183,7 @@
                         <img src="images/p2.jpg" alt="" />
                         <div class="single_special_overlay text-center">
                             <h3>ANNE VAN DER KLIFT</h3>
-                            <a href="showfilms" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=ANNE" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Theater | FILM & TV & Youtube</p>
                             </a>
@@ -196,7 +196,7 @@
                         <img src="images/p3.jpg" alt="" />
                         <div class="single_special_overlay text-center">
                             <h3>NASIM MIRADI</h3>
-                            <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=NASIM" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Theater | Financiën</p>
                             </a>
@@ -222,7 +222,7 @@
                         <img src="images/p5.jpg" alt="" />
                         <div class="single_special_overlay text-center">
                             <h3>TESS KAMPHORST</h3>
-                            <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=TESS" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Uitgeverij</p>
                             </a>
@@ -236,7 +236,7 @@
                         <img src="images/p6.jpg" alt="" />
                         <div class="single_special_overlay text-center">
                             <h3>FRANCIEN JONGE POERINK</h3>
-                            <a href="http://www.rosestories.nl/over/?.wpb_wrapper" target="frame1" style="text-decoration:none">
+                            <a href="memprofile?id=FRANCIEN" target="frame1" style="text-decoration:none">
                                 <div class="overlay_separetor"></div>
                                 <p>Financiën</p>
                             </a>

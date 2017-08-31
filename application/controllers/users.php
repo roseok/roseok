@@ -59,10 +59,14 @@ class Users extends CI_Controller {
 
     public function profile()
     {
-       
-        
         $this->load->view('/makers/profile'.$_GET["id"]);
     }
+
+    public function memprofile()
+    {
+        $this->load->view('overmembers'.$_GET["id"]);
+    }
+
 
     public function action()
     {
