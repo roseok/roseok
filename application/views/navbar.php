@@ -66,22 +66,3 @@
 
     </div>
 </header> <!--End of header -->
-
-<script type="text/javascript" src="js/jquery/jquery.js"></script>
-    
-    <script type="text/javascript" src="js/script.js"></script>
-    
-    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-    
-    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-    
-    <script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
-    
-    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
-    
-    
-    
-    <script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/wow/wow.min.js"></script>
-</body>
-</html>

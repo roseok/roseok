@@ -123,6 +123,16 @@ public function delete_post($log_id)
         return $query->result();
     }
 
+
+    public function get_all_events()
+    {
+        $this->db->select();
+        $this->db->from('events');
+        $this->db->order_by('event_id','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
 }
 
 
