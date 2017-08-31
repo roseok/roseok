@@ -304,7 +304,7 @@ margin: 33px; -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single_menus wow slideInLeft" data-wow-duration="1.5s">
                         <ul>
-                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/maryam-hassouni/"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
+                            <div class="maker1"><li> MARYAM HASSOUNI   </li></div><div class="maker2"> <a href="profile?id=1"><img class="roundimage" src="images/makers/MARYAM HASSOUNI.jpeg"></a></div> <span></span>
 
                             <div class="maker1"><li> RAMONA TREFFERS   </li></div><div class="maker2"> <a href="http://www.rosestories.nl/makers/ramona-treffers/"> <img class="roundimage" src="images/makers/RAMONA TREFFERS.jpg"></a></div> <span></span>
 

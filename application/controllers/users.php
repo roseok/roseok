@@ -28,6 +28,13 @@ class Users extends CI_Controller {
         $this->load->view('over');
     }
 
+    public function profile()
+    {
+       
+        
+        $this->load->view('/makers/profile'.$_GET["id"]);
+    }
+
     public function action()
     {
 

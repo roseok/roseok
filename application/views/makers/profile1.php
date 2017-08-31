@@ -216,13 +216,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 			<ul id="menu-main-menu" class=""><li id="nav-menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://www.rosestories.nl/over/" class=""><i class="menu_icon fa blank"></i><span>Over</span><span class="plus"></span></a></li>
 <li id="nav-menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://www.rosestories.nl/nieuws/" class=""><i class="menu_icon fa blank"></i><span>Nieuws</span><span class="plus"></span></a></li>
 <li id="nav-menu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="http://www.rosestories.nl/projecten/" class=""><i class="menu_icon fa blank"></i><span>Projecten</span><span class="plus"></span></a>
-<div class="second"><div class="inner"><ul>
-	<li id="nav-menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/boeken/" class=""><i class="menu_icon fa blank"></i><span>Boeken</span><span class="plus"></span></a></li>
-	<li id="nav-menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/theater/" class=""><i class="menu_icon fa blank"></i><span>Theater</span><span class="plus"></span></a></li>
-	<li id="nav-menu-item-1926" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/film-tv/" class=""><i class="menu_icon fa blank"></i><span>Film &#038; tv</span><span class="plus"></span></a></li>
-	<li id="nav-menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/trajecten/" class=""><i class="menu_icon fa blank"></i><span>Talentontwikkeling</span><span class="plus"></span></a></li>
-	<li id="nav-menu-item-1922" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/in-opdracht/" class=""><i class="menu_icon fa blank"></i><span>In opdracht</span><span class="plus"></span></a></li>
-</ul></div></div>
+
 </li>
 <li id="nav-menu-item-1908" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://www.rosestories.nl/makers/" class=""><i class="menu_icon fa blank"></i><span>Makers</span><span class="plus"></span></a></li>
 <li id="nav-menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a target="_blank" href="http://www.rosestories.nl/webshop-2/" class=""><i class="menu_icon fa blank"></i><span>Webshop  <i class="fa fa-link" aria-hidden="true"></i></span><span class="plus"></span></a></li>
@@ -230,8 +224,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 <li id="nav-menu-item-2165" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a target="_blank" href="http://www.stichtingrose.nl" class=""><i class="menu_icon fa blank"></i><span>stichting ROSE <i class="fa fa-link" aria-hidden="true"></i></span><span class="plus"></span></a></li>
 <li id="nav-menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page anchor-item  narrow"><a href="http://www.rosestories.nl/over/#contact" class=""><i class="menu_icon fa blank"></i><span>Contact</span><span class="plus"></span></a></li>
 </ul>		</nav>
-		<div class="vertical_menu_area_widget_holder">
-			<div id="wpcom_social_media_icons_widget-2" class="widget widget_wpcom_social_media_icons_widget"><ul><li><a title="Bekijk het profiel van theworldofrosestories op Facebook" href="https://www.facebook.com/theworldofrosestories/" class="genericon genericon-facebook" target="_blank"><span class="screen-reader-text">Bekijk het profiel van theworldofrosestories op Facebook</span></a></li><li><a title="Bekijk het profiel van theworldofrose op Twitter" href="https://twitter.com/theworldofrose/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">Bekijk het profiel van theworldofrose op Twitter</span></a></li><li><a title="Bekijk het profiel van theworldofrosestories op Instagram" href="https://instagram.com/theworldofrosestories/" class="genericon genericon-instagram" target="_blank"><span class="screen-reader-text">Bekijk het profiel van theworldofrosestories op Instagram</span></a></li></ul></div>		</div>
+		
 	</aside>
 
 	<header class="page_header   fixed   ">
@@ -250,24 +243,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 
 											</div>
 				</div>
-							<nav class="mobile_menu">
-					<ul id="menu-main-menu-1" class=""><li id="mobile-menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/over/" class=""><span>Over</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/nieuws/" class=""><span>Nieuws</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="http://www.rosestories.nl/projecten/" class=""><span>Projecten</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-	<li id="mobile-menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/boeken/" class=""><span>Boeken</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-	<li id="mobile-menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/theater/" class=""><span>Theater</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-	<li id="mobile-menu-item-1926" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/film-tv/" class=""><span>Film &#038; tv</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-	<li id="mobile-menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/trajecten/" class=""><span>Talentontwikkeling</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-	<li id="mobile-menu-item-1922" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/projecten/in-opdracht/" class=""><span>In opdracht</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul>
-</li>
-<li id="mobile-menu-item-1908" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/makers/" class=""><span>Makers</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-page "><a target="_blank" href="http://www.rosestories.nl/webshop-2/" class=""><span>Webshop  <i class="fa fa-link" aria-hidden="true"></i></span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-693" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.rosestories.nl/info/english/" class=""><span>English</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-2165" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="http://www.stichtingrose.nl" class=""><span>stichting ROSE <i class="fa fa-link" aria-hidden="true"></i></span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li id="mobile-menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.rosestories.nl/over/#contact" class=""><span>Contact</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul>				</nav>
+							
 			</div>
 		</div>
 	</header>
