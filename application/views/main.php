@@ -1,5 +1,73 @@
 
 
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Rose Stories</title>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animat/animate.min.css" />
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css" />
+    <link rel="stylesheet" href="css/themes/default/default.css" />
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+    <!-- add a linke for scroll up -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+<header id="home" class="header">
+    <div class="main_menu_bg navbar-fixed-top wow slideInDown" data-wow-duration="1s">
+        <div class="container">
+            <div class="row">
+                <div class="nave_menu">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <!-- i change a arrang and change a few id  -->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#home">ROSE STORIES</a></li>
+                                    <li><a href="#features">OVER</a></li>
+                                    <li><a href="#special">MEMBERS</a></li>
+                                    <li><a href="#news">NIEUWS</a></li>
+                                    <li><a href="#specials">MAKERS</a></li>
+                                    <!-- <li><a href="#abouts">ENGLISH</a></li> -->
+                                    <li><a href="#footer">CONTACT</a></li>
+                                    <!-- i add in navbar some of lang -->
+                                    <select id="lang" style="margin: 10px; border: none;     background-color: rgba(249, 245, 245, 0.06);" >
+                                        <option>NL</option>
+                                        <option>ENG</option>
+                                    </select>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div><!--End of row -->
+
+        </div><!--End of container -->
+
+    </div>
+</header> <!--End of header -->
 
 
 <section  class="special sections2">
@@ -351,88 +419,89 @@ margin: 33px; -->
 
 <!-- footer Section -->
 
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="row">
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
 
-                <div class="col-sm-5 col-sm-offset-7 col-xs-10 col-xs-offset-2">
-                    <div class="contact_area wow slideInLeft" data-wow-duration="2s">
-                        <div class="head_title text-center">
-                            <h2>Contact</h2>
-                            <div class="separetor"></div>
+            <div class="col-sm-5 col-sm-offset-7 col-xs-10 col-xs-offset-2">
+                <div class="contact_area wow slideInLeft" data-wow-duration="2s">
+                    <div class="head_title text-center">
+                        <h2>Contact</h2>
+                        <div class="separetor"></div>
+                    </div>
+
+                    <div class="main_contact_content">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="single_contact text-left">
+                                    <h5>ADRES </h5>
+                                    <span>ROSE stories BV</span>
+                                    <span>Hoogte Kadijk 143 F19</span>
+                                    <span>1018 BH Amsterdam</span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="single_contact text-left">
+                                    <h5>IBAN </h5>
+                                    <span>NL64 TRIO 0254 4289 16</span>
+                                    <span>KvK 60967242</span>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="main_contact_content">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="single_contact text-left">
-                                        <h5>ADRES </h5>
-                                        <span>ROSE stories BV</span>
-                                        <span>Hoogte Kadijk 143 F19</span>
-                                        <span>1018 BH Amsterdam</span>
+                        <div class="contact_form_area">
+                            <?php if(isset($meskey))
+                                echo $meskey[0];
+                            ?>
+                            <h3>Contact form</h3>
+                            <form method="POST" action="<?= base_url('sendmail');?>" id="formid" name="formidn">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" placeholder="first name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Email">
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-sm-6">
-                                    <div class="single_contact text-left">
-                                        <h5>IBAN </h5>
-                                        <span>NL64 TRIO 0254 4289 16</span>
-                                        <span>KvK 60967242</span>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+                                        </div>
+
+
                                     </div>
+                                    <!-- add a class and a background color -->
+                                    <div class="form_btn_area text-center" >
+                                        <input type="submit" value="Send" class="w3-button w3-white w3-border w3-round-large" style="    background-color: rgba(255, 255, 255, 0.08)!important;" >
+                                        <!--                                            <a href="" class="btn" onclick="document.formidn.submit;">Send</a>-->
+                                    </div>
+
                                 </div>
-                            </div>
-
-                            <div class="contact_form_area">
-                                <?php if(isset($meskey))
-                                    echo $meskey[0];
-                                    ?>
-                                <h3>Contact form</h3>
-                                <form method="POST" action="<?= base_url('sendmail');?>" id="formid" name="formidn">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-xs-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="name" placeholder="first name">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6 col-xs-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="email" placeholder="Email">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
-                                            </div>
-
-
-                                        </div>
-
-                                        <div class="form_btn_area text-center">
-                                            <input type="submit" value="Send">
-<!--                                            <a href="" class="btn" onclick="document.formidn.submit;">Send</a>-->
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
+                            </form>
                         </div>
 
                     </div>
+
                 </div>
             </div>
+        </div>
 
 
-            <div class="row">
+        <div class="row">
                 <div class="copyright_text_area">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="single_footer text-right wow zoomIn" data-wow-duration="2s">
                             <a href="https://www.facebook.com/theworldofrosestories/" class="fa fa-facebook" target="frame1"></a>
                             <a href="https://twitter.com/theworldofrose/" class="fa fa-twitter" target="frame1"></a>
-<!--                            <a href="#" class="fa fa-snapchat-ghost" target="frame1"></a>-->
+                            <!--                            <a href="#" class="fa fa-snapchat-ghost" target="frame1"></a>-->
                             <a href="https://www.instagram.com/theworldofrosestories/" class="fa fa-instagram" target="frame1"></a>
                             <a href="#" class="fa fa-pinterest" target="frame1"></a>
 
@@ -440,18 +509,18 @@ margin: 33px; -->
                             <!-- <p>Made with <i class="fa fa-heart"></i> by <a href="http://bootstrapthemes.co">Bootstrap Themes</a>2016. All Rights Reserved</p> -->
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_footer text-right">
 
-                            <!-- <div class="footer_socail wow zoomIn" data-wow-duration="1.5s">
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-linkedin"></i></a>
-                            </div> -->
-                        </div>
+                    <div class="w3-container" class="col-sm-12">
+                        <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-button w3-xlarge w3-circle w3-red w3-card-4"
+                                style="float:right;
+                                            position: relative;
+                                            bottom: 133px;">up
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+
     </footer>
 
 
@@ -468,37 +537,54 @@ margin: 33px; -->
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 6000);
+        setTimeout(carousel, 3000);
+    }
+    window.onscroll = function() {scrollFunction()};
+    // add function for scrollup
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
 </script>
 
+<!-- STRAT SCROLL TO TOP -->
+<!-- <button type="button" class="btn btn-link">Link</button> -->
+<!-- <div class="scrollup">
+    <a href="#"><i class="fa fa-chevron-up"></i></a>
 
-	<!-- STRAT SCROLL TO TOP -->
-	
-	<div class="scrollup">
-		<a href="#"><i class="fa fa-chevron-up"></i></a>
-	</div>
-	
-	
-	
-	
-	
+</div> -->
 
-	<script type="text/javascript" src="js/jquery/jquery.js"></script>
-	
-	<script type="text/javascript" src="js/script.js"></script>
-	
-	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
-	
-	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-	
-	<script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
-	
-	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
-	
-	
-	
-	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/wow/wow.min.js"></script>
+<!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
+
+<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+
+
+
+<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/wow/wow.min.js"></script>
 </body>
 </html>
