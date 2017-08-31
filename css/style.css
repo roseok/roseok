@@ -322,7 +322,7 @@ a:hover{
 
 /* features section */
 .features{
-	background:#ffebeb;
+	background:#F3EFEF;
 }
 
 .sinle_features{
@@ -397,7 +397,7 @@ a:hover{
 	padding-bottom:50px;
 }
 .abouts{
-	background:#ddd;
+	background:#F3EFEF;
 }
 
 .single_abouts p{
@@ -482,6 +482,7 @@ a:hover{
 /* footer section */
 .footer{
 	background:url(../images/footerbg.jpg) no-repeat center top;
+	/*background:#F3EFEF ;*/
 	background-size:cover;
 	padding-top:90px;
 }

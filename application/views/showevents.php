@@ -16,9 +16,9 @@ vertical-align: top;
 .hed_in2xx{
     width: 35%;
 
-    align-items: left;
-
-    margin: 10px auto;
+    text-align: right;
+    /*margin-left: 80px;*/
+    /*margin: 10px auto;*/
 
     display : inline-block;
     vertical-align: top;
@@ -49,8 +49,8 @@ vertical-align: top;
 
                 <b><?=$row->event_titel?></b>
                 <br><br>
-
-                        <?=$row->event_discription?>
+                        <p align="justify">
+                        <?=$row->event_discription?></p>
                     </div>
                         <div class="hed_in2xx">
                <img src="uploads/<?=$row->event_img?>" style=" max-width: 300px">
@@ -88,7 +88,7 @@ vertical-align: top;
                         <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-button w3-xlarge w3-circle w3-red w3-card-4"
                                 style="float:right;
                                             position: relative;
-                                            bottom: 133px;">up
+                                            bottom: 65px;">up
                         </button>
                     </div>
                 </div>

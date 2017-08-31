@@ -43,13 +43,13 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <!-- i change a arrang and change a few id  -->
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#home">ROSE STORIES</a></li>
-                                    <li><a href="#features">OVER</a></li>
-                                    <li><a href="#special">MEMBERS</a></li>
-                                    <li><a href="#news">NIEUWS</a></li>
-                                    <li><a href="#specials">MAKERS</a></li>
+                                    <li class="active"><a href="inmain?#home">ROSE STORIES</a></li>
+                                    <li><a href="inmain?#features">OVER</a></li>
+                                    <li><a href="inmain?#special">MEMBERS</a></li>
+                                    <li><a href="inmain?#news">NIEUWS</a></li>
+                                    <li><a href="inmain?#specials">MAKERS</a></li>
                                     <!-- <li><a href="#abouts">ENGLISH</a></li> -->
-                                    <li><a href="#footer">CONTACT</a></li>
+                                    <li><a href="inmain?#footer">CONTACT</a></li>
                                     <!-- i add in navbar some of lang -->
                                     <select id="lang" style="margin: 10px; border: none;     background-color: rgba(249, 245, 245, 0.06);" >
                                     <option>NL</option>

@@ -254,7 +254,7 @@
 position: relative;
 left: 58px;
 margin: 33px; -->
-<section id="abouts" class="abouts sections">
+<section id="news" class="abouts sections">
     <div class="container">
         <div class="row">
             <div class="main_abouts">
@@ -265,7 +265,7 @@ margin: 33px; -->
                             <div class="separetor"></div>
                         </div>
                         <div class="news">
-                            <h3><span>WOUTERTJE PIETERSE LEZING 2017</span></h3><p>Op zaterdag 8 april werd de Woutertje Pieterse Prijs 2017 uitgereikt, een prijs voor het beste oorspronkelijke Nederlandstalige kinder- of jeugdboek. Onze Nasim had de eer om de jaarlijkse lezing te houden.</p>
+                            <h4><span>WOUTERTJE PIETERSE LEZING 2017</span><p align="justify"><font size="3">Op zaterdag 8 april werd de Woutertje Pieterse Prijs 2017 uitgereikt, een prijs voor het beste oorspronkelijke Nederlandstalige kinder- of jeugdboek. Onze Nasim had de eer om de jaarlijkse lezing te houden.</font></p>
                         </div>
                         <div class="signature_img text-right">
                             <!-- <img src="images/signature.png" alt="" /> -->
@@ -286,7 +286,7 @@ margin: 33px; -->
 </section><!-- End of Abouts Section -->
 
 
-<section id="menus" class="menus sections">
+<section id="specials" class="menus sections">
     <div class="container">
         <div class="row">
             <div class="main_menus">
@@ -297,21 +297,14 @@ margin: 33px; -->
 
                 <div class="menus_top_menu text-center wow slideInDown" data-wow-duration="1.5s">
                     <ul>
-<<<<<<< HEAD
+
                         <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" >BOEKEN</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/theater/" >THEATER</a></li>
                         <li><a href="showfilms" >FILM & TV & Youtube</a></li>
                         <li><a href="showevents" >Events</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/trajecten/" >TALENT ONTWIKKELING</a></li>
                         <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" >IN OPDRACHT</a></li>
-=======
-                        <li class="active"><a href="http://www.rosestories.nl/projecten/boeken/" target="_blank">BOEKEN</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/theater/" target="_blank">THEATER</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/film-tv/" target="_blank">FILM & TV</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">EVENTS</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/trajecten/" target="_blank">TALENT ONTWIKKELING</a></li>
-                        <li><a href="http://www.rosestories.nl/projecten/in-opdracht/" target="_blank">IN OPDRACHT</a></li>
->>>>>>> 726071a4da5f4ea9a4eea75089e76a2f1b58a5a0
+
                     </ul>
                 </div>
 
@@ -448,7 +441,16 @@ margin: 33px; -->
                     </div>
 
                 </div>
+
             </div>
+
+
+
+
+
+
+
+
         </div>
 
 
@@ -471,7 +473,7 @@ margin: 33px; -->
                         <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-button w3-xlarge w3-circle w3-red w3-card-4"
                                 style="float:right;
                                             position: relative;
-                                            bottom: 133px;">up
+                                            bottom: 65px;">up
                         </button>
                     </div>
                 </div>

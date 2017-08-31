@@ -225,11 +225,14 @@ if ( $this->input->post('register',true) )
 
        public function uploadfile()
     {
+
         if ( $this->input->post('upme',true) ) {
             $this->load->view('upload');
         }
-        if ( $this->input->post('upme1',true) ) {
 
+
+        if ( $this->input->post('upme1')<>"" ) {
+            // die("a".$this->input->post('upme1')."B");
 
             $this->load->library('form_validation');
 
@@ -237,31 +240,31 @@ if ( $this->input->post('register',true) )
             $this->form_validation->set_rules('text_event_titel', 'event_titel', 'required');
             $this->form_validation->set_rules('text_Event_discription', 'Event_discription', 'required');
 
+
             if ($this->form_validation->run() == FALSE) {
-                if ($this->form_validation->run() == FALSE) {
 
-                    $arr['res'] = array('Error in validation');
-                    $this->load->view('addevent', $arr);
+                $arr['res'] = array('Error in validation');
+                $this->load->view('addevent', $arr);
 
-                } else {
-                    $event = $this->input->post('text_event_titel', true);
-                    $this->session->set_userdata('event_name', $event);
+            } else {
+                $event = $this->input->post('text_event_titel', true);
+                $this->session->set_userdata('event_name', $event);
 
-                    $this->load->model('user_model');
-
-
-                    $arr = $this->user_model->add_event($_POST);
+                $this->load->model('user_model');
 
 
-                    $this->load->view('members', $arr);
+                $arr = $this->user_model->add_event($_POST);
 
-                    //  $this->load->view('members');
 
-                }
+                $this->load->view('members', $arr);
 
+                //  $this->load->view('members');
 
             }
+
         }
+
+
     }
 
     public function updateme()
