@@ -21,7 +21,6 @@ if(empty($sess_id))
     redirect(base_url());
 
 }else{
-
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,18 +78,28 @@ if(empty($sess_id))
 		padding: 0 10px 0 10px;
 		margin: 20px 0 0 0;
 	}
-
+    p.footer2 {
+        text-align: right;
+        font-size: 11px;
+        background: #EBE5E6;
+        border-top: 1px solid #D0D0D0;
+        line-height: 32px;
+        padding: 0 10px 0 10px;
+        margin: 20px 0 0 0;
+    }
 	#container {
 		margin: 10px;
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
+        text-align: center;
 	}
     #container2 {
-        width: 98%;
+        width: 50%;
         display: inline-block;
         margin: 10px;
         text-align: center;
         vertical-align: top;
+
         border: 1px solid #D0D0D0;
         box-shadow: 0 0 8px #D0D0D0;
     }
@@ -108,7 +117,7 @@ if(empty($sess_id))
         font-size: 12px;
         margin: 10px auto;
         margin-left: 20px;
-        text-align: right;
+        text-align: left;
         display : inline-block;
         vertical-align: top;
     }
@@ -146,15 +155,46 @@ if(empty($sess_id))
 <body>
 
 <div id="container">
-    <div class="hed_in1"><h1>Welcome <?= $this->session->userdata('member_name'); ?> </h1></div>
+    <div class="hed_in1"><h1>Welcome  </h1></div>
     <div class="hed_in2"><h3> <a href="event">Add events</a> | <a href="youtube">Add youtube vidio link</a> | <a href="comments">Control comments</a> | <a href="password">Change password</a> |  <a href="logout">Log Out</a>  </h3></div>
 	<div id="body">
 
 
-<p class="footer">Login admin rose stories</p>
+
+
+<div id="container2">
+    <h1>Add event <img src="<?php echo  base_url('/public/images/new.gif'); ?>"></h1>
+
+    <form name="form_up" action="<?= base_url('uploadfile');?>" method="POST">
+<?php
+if (isset($res[0]))
+{
+    echo "<font color='red'>".$res[0]."</font><br>";
+}
+?>
+        <div class="hed_in1">Event titel</div>
+        <div class="hed_in2"><input type="text" name="text_event_titel" placeholder="Please enter event titel" size="40"></div>
+        <br>
+        <div class="hed_in1">Event discription</div>
+        <div class="hed_in2">
+
+            <textarea rows="3" cols="40"  name="text_Event_discription" placeholder="please enter Event discription"></textarea>
+            </div>
+        <br><br>
+
+
+        <input  type="submit" name="upme1" value="Save event with out Image"/>&nbsp;&nbsp;&nbsp;
+    <input  type="submit" name="upme" value="Save event with Image"/>
+    </form>
+
+
+       <p class="footer2"><br></p>
+</div>
+<p class="footer">Add event</p>
 
 
 
 </body>
 <?php } ?>
 </html>
+

@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'root';
+$db['default']['password'] = 'sasa';
 $db['default']['database'] = 'my_blog_db';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';

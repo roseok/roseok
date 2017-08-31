@@ -1,13 +1,12 @@
-
-<?php include('public_header.php'); ?>
-
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+$this->load->helper(array('form', 'url'));
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Welcome to Login and Registration</title>
+    <title>Rose Stories upload event image</title>
 
     <style type="text/css">
 
@@ -48,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             padding: 12px 10px 12px 10px;
         }
 
-        .body {
+        #body {
             margin: 0 15px 0 15px;
         }
 
@@ -60,40 +59,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             padding: 0 10px 0 10px;
             margin: 20px 0 0 0;
         }
-        #main_container {
 
-            text-align: center;
-        }
         #container {
-           display: inline-block;
             margin: 10px;
-            vertical-align: top;
             border: 1px solid #D0D0D0;
             box-shadow: 0 0 8px #D0D0D0;
         }
         #container2 {
+            width: 98%;
             display: inline-block;
             margin: 10px;
+            text-align: center;
             vertical-align: top;
             border: 1px solid #D0D0D0;
             box-shadow: 0 0 8px #D0D0D0;
         }
         .hed_in1{
-            width: 150px;
-            height: 25px;
-
+            width: 45%;
+            font-size: 12px;
             margin: 10px auto;
             margin-left: 20px;
             text-align: left;
             display : inline-block;
             vertical-align: top;
         }
-
         .hed_in2{
-            width: 200px;
-            height: 25px;
-
+            width: 45%;
+            font-size: 12px;
             margin: 10px auto;
+            margin-left: 20px;
+            text-align: right;
+            display : inline-block;
+            vertical-align: top;
+        }
+        .hed_in1n{
+            width: 30%;
+            font-size: 12px;
+            margin: 10px auto;
+            margin-left: 20px;
+            text-align: left;
+            display : inline-block;
+            vertical-align: top;
+        }
+        .hed_in2n{
+            width: 45%;
+            font-size: 12px;
+            margin: 10px auto;
+            margin-left: 20px;
             text-align: left;
             display : inline-block;
             vertical-align: top;
@@ -102,34 +114,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="main_container">
+<div id="container">
+
+
+    <div id="container2">
+        <h1>Upload images for event</h1>
 
 
 
 
-    <div id="container">
-        <h1>Rose stories control pannel</h1>
-        <?php
-        if(isset($res)){
-            if($res[0]=="1"){ ?>
-                <div align="center"><h3><b><font color="red">Error in Login</font></b></h3></div>
-            <?php }} ?>
+        <?php echo form_open_multipart(base_url('upload/upload_file')); ?>
 
-        <br><br>
-        <form name="form_reg" action="<?= base_url('members');?>" method="POST">
-            <div class="hed_in1">Email</div>
-            <div class="hed_in2"><input type="text" name="text_Email_Address" placeholder="please enter Email Name"></div>
-            <br>
-            <div class="hed_in1">Password</div>
-            <div class="hed_in2"><input type="password" name="text_Password" placeholder="please enter Password"></div>
-            <br><br>
+<input type="file" name="userfile" size="20" />
 
-            <input type="submit" name="log"  value="Login">
-        </form>
+<br /><br />
+
+<input type="submit" value="Upload First a photo fro your Event " />
+
+</form>
 
         <br>    <hr>    <br>
     </div>
-   <!--  <p class="footer">Rose stories control pannel login page</p> -->
+    <p class="footer">Rose Stories upload event image</p>
 </div>
-</body>
-</html>

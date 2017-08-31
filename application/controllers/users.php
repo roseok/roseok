@@ -16,6 +16,39 @@ class Users extends CI_Controller {
          $this->load->view('changepassword');
     }
 
+    function addevent()//index page
+    {
+        $this->load->view('addevent');
+    }
+
+    function addyoutube()//index page
+    {
+        if (!$this->input->post('upme1', true)) {
+            $this->load->view('addyoutube');
+        }
+        if ($this->input->post('upme1', true)) {
+
+            $this->load->library('form_validation');
+
+            $this->form_validation->set_rules('text_youtube', 'text_youtube', 'required');
+            $this->form_validation->set_rules('text_youtube_titel', 'text_youtube_titel', 'required');
+            $this->form_validation->set_rules('text_youtube_discription', 'text_youtube_discription', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+
+                $arr['res'] = array('Error in validation');
+                $this->load->view('addeyoutube', $arr);
+
+            } else {
+
+
+                $this->load->model('user_model');
+                $arr = $this->user_model->add_youtube($_POST);
+                $this->load->view('members', $arr);
+            }
+        }
+    }
+
     function logout()//index page
     {
         $this->session->set_userdata('logd','');
@@ -23,9 +56,12 @@ class Users extends CI_Controller {
         redirect(base_url('users'));
        // $this->load->view('users');
     }
-    public function over()
+
+    public function profile()
     {
-        $this->load->view('over');
+       
+        
+        $this->load->view('/makers/profile'.$_GET["id"]);
     }
 
     public function action()
@@ -183,9 +219,49 @@ if ( $this->input->post('register',true) )
         // ************************************* Log me *********************************************
 
 
+
+
+
+
        public function uploadfile()
     {
-        $this->load->view('upload');
+        if ( $this->input->post('upme',true) ) {
+            $this->load->view('upload');
+        }
+        if ( $this->input->post('upme1',true) ) {
+
+
+            $this->load->library('form_validation');
+
+
+            $this->form_validation->set_rules('text_event_titel', 'event_titel', 'required');
+            $this->form_validation->set_rules('text_Event_discription', 'Event_discription', 'required');
+
+            if ($this->form_validation->run() == FALSE) {
+                if ($this->form_validation->run() == FALSE) {
+
+                    $arr['res'] = array('Error in validation');
+                    $this->load->view('addevent', $arr);
+
+                } else {
+                    $event = $this->input->post('text_event_titel', true);
+                    $this->session->set_userdata('event_name', $event);
+
+                    $this->load->model('user_model');
+
+
+                    $arr = $this->user_model->add_event($_POST);
+
+
+                    $this->load->view('members', $arr);
+
+                    //  $this->load->view('members');
+
+                }
+
+
+            }
+        }
     }
 
     public function updateme()
@@ -320,6 +396,23 @@ if ( $this->input->post('register',true) )
     }
     // ************************************* Log me *********************************************
 
+
+
+
+
+
+
+    // ************************************* getyoutube *********************************************
+    public function getyoutube()
+    {
+
+
+            $this->load->model('user_model');
+            $arrx['res'] = $this->user_model->get_all_youtube();
+            $this->load->view('showfilms', $arrx);
+
+    }
+    // ************************************* getyoutube *********************************************
 
 
 
