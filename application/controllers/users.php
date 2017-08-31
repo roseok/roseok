@@ -393,4 +393,21 @@ if ( $this->input->post('register',true) )
 
 
 
+
+
+    // ************************************* getyoutube *********************************************
+    public function getyoutube()
+    {
+
+
+            $this->load->model('user_model');
+            $arrx['res'] = $this->user_model->get_all_youtube();
+            $this->load->view('showfilms', $arrx);
+
+    }
+    // ************************************* getyoutube *********************************************
+
+
+
+
 }

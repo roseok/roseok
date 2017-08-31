@@ -111,6 +111,18 @@ public function delete_post($log_id)
         $this->db->where('log_id',$log_id);
         $this->db->delete('login');
     }
+
+
+
+    public function get_all_youtube()
+    {
+        $this->db->select();
+        $this->db->from('youtube');
+        $this->db->order_by('you_id','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
 }
 
 
