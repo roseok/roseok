@@ -11,6 +11,21 @@ class user_model extends CI_Model {
     }
 
 
+    public function add_event($quote)
+    {
+        $query = "INSERT INTO events (event_titel, event_discription,event_img) VALUES (?,?,?)";
+        $values = array($quote['text_event_titel'],$quote['text_Event_discription'],$quote['text_Image_name']);
+        $this->db->query($query, $values);
+        return $this->db->insert_id();
+    }
+
+    public function add_youtube($quote)
+    {
+        $query = "INSERT INTO youtube (youtube_titel, youtube_link,youtube_discription) VALUES (?,?,?)";
+        $values = array($quote['text_youtube_titel'],$quote['text_youtube'],$quote['text_youtube_discription']);
+        $this->db->query($query, $values);
+        return $this->db->insert_id();
+    }
 
 
     public function updatepws($quote)
@@ -96,6 +111,18 @@ public function delete_post($log_id)
         $this->db->where('log_id',$log_id);
         $this->db->delete('login');
     }
+
+
+
+    public function get_all_youtube()
+    {
+        $this->db->select();
+        $this->db->from('youtube');
+        $this->db->order_by('you_id','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
 }
 
 

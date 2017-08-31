@@ -33,7 +33,8 @@ class sendmail extends CI_Controller {
 
 
         $this->email->from($cemail, $name);
-        $this->email->to('info@rosestories.nl');
+        $this->email->to('x2020x@yahoo.nl');
+//        $this->email->to('info@rosestories.nl');
 //        $this->email->cc('another@another-example.com');
 //        $this->email->bcc('them@their-example.com');
 

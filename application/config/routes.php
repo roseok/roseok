@@ -44,11 +44,15 @@ $route['sendmail'] = "sendmail/sendme";
 $route['members'] = 'users/members';
 $route['logout'] = 'users/logout';
 $route['password'] = 'users/password';
+$route['uploadfile'] = 'users/uploadfile';
+$route['event'] = 'users/addevent';
+$route['youtube'] = 'users/addyoutube';
 
 $route['over'] = 'users/over';
 $route['changepassword'] = 'users/changepassword';
 
 $route['profile'] = 'users/profile';
-/* End of file routes.php */
 
+
+/* End of file routes.php */
 /* Location: ./application/config/routes.php */
